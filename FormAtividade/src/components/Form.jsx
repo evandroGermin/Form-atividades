@@ -153,7 +153,7 @@ const handleSubmit = (e) => {
 
                 <label>
                 <label htmlFor="senha">Senha:</label>
-                <input type="password" name="senha" placeholder='Digite sua senha' onChange={handleSenha} value={senha}/>
+                <input type="password" name="senha" placeholder='Digite sua senha' onChange={handleSenha} value={senha} minLength={6}/>
                 </label>
 
                 <label>
