@@ -1,0 +1,19 @@
+/* Botão submit */
+input[type="submit"] {
+    margin-top: 20px;
+    background-color: #6c63ff;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 8px;
+    transition: 0.2s ease;
+}
+
+.mensagem {
+    margin-top: 12px;
+    font-size: 14px;
+    color: green;
+    text-align: center;
+}
